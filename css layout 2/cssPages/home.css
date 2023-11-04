@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* css of the navbar */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 94px;
+}
+nav ul li {
+  margin: 8%;
+  list-style-type: none;
+}
+nav ul li a {
+  color: #506690;
+  font-size: 19px;
+  text-decoration: none;
+  font-weight: 520;
+}
+nav #logo-nav {
+  text-decoration: none;
+  color: #335eea;
+  font-size: 28px;
+  font-weight: bolder;
+  padding-top: 1.2%;
+  position: relative;
+  left: 12%;
+}
+nav #button-nav {
+  text-decoration: none;
+  background-color: #335eea;
+  border-radius: 7px;
+  text-align: center;
+  color: white;
+  position: relative;
+  right: 190px;
+  top: 10px;
+  padding-top: 13px;
+  width: 100px;
+  height: 38px;
+}
+nav #button-nav:hover {
+  background-color: #254dd2;
+  margin-top: -0.1%;
+  box-shadow: #254dd2 1px 0px 0px 1px;
+}
+/* css of the first section */
+section {
+  display: flex;
+  flex-direction: row;
+}
+.container-one {
+  display: flex;
+  flex-direction: column;
+}
+.container-one .container-description {
+  width: 600px;
+  margin-top: 25%;
+  margin-left: 40%;
+}
+.container-one .container-description p {
+  font-size: 25px;
+  color: #97adad;
+  margin-top: 2%;
+  width: 550px;
+  line-height: 35px;
+}
+.container-one .container-description h1 {
+  font-size: 48px;
+  text-align: start;
+  color: rgb(30, 29, 29);
+  font-weight: 100;
+  width: 420px;
+  line-height: 65px;
+}
+.container-one .container-description h1 > span {
+  color: #335eea;
+}
+.container-one .container-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40%;
+  margin-top: 4%;
+  justify-content: space-between;
+}
+.container-buttons a {
+  text-decoration: none;
+}
+.container-two img {
+  width: 600px;
+  margin-top: 22%;
+  margin-left: 30%;
+}
+.container-buttons #button1 {
+  font-size: 18px;
+  background-color: #325eee;
+  color: white;
+  padding: 5% 8%;
+  border-radius: 7px;
+}
+.container-buttons #button1:hover {
+  background-color: #254dd2;
+  box-shadow: 0px 2px 2px 0px #254dd218;
+  position: relative;
+  top: -2px;
+}
+.container-buttons #button2 {
+  background-color: #e1e7fc;
+  color: #335eea;
+  font-size: 18px;
+  padding: 5% 8%;
+  border-radius: 7px;
+}
+.container-buttons #button2:hover {
+  box-shadow: 0px 2px 2px 0px #254dd218;
+  position: relative;
+  top: -2px;
+  background-color: #bfcccc58;
+}
